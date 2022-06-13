@@ -1,12 +1,11 @@
-
 body{
     background-color: #262630;
     color: white;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 .navbar{
-    margin: 70px 0px 0px 70px;
+    margin: 70px 0 0 70px;
 }
 
 a{
@@ -16,7 +15,6 @@ a{
 
 a:hover{
     text-decoration: underline;
-
 }
 
 .arrow{
@@ -126,7 +124,6 @@ button{
 .form label::after{
     content: none;
     position: absolute;
-
 }
 
 input:focus::placeholder{
@@ -147,5 +144,4 @@ input:focus::placeholder{
     position: relative;
     text-align: right;
     margin: 0px 25px 30px;
-
 }
