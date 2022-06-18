@@ -7,19 +7,82 @@ body{
     justify-content: center;
 }
 
+.split-left, .split-right{
+    width: 50%;
+}
+
+.form-info{
+    text-align: center;
+}
+
 .content-box{
-    font-family: arial;
-    font-size: 24px;
-    height: 700px;
-    width: 700px;
+    /*font-family: arial;*/
+    position: relative;
+    font-size: 20px;
+    height: 80%;
+    width: 90%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: white;
 }
 
-.child{
-    width: 70%;
-    height: 80%;
-    background-color: red;
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
+
+.form{
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    height: 20%;
+    left: 0px;
+}
+
+.form .form-group{
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+
+.form .form-group label{
+    left: 0;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form .form-group input{
+    width: 100%;
+    display: block;
+    height: 30px;
+    padding-top: 20px;
+}
+
+/*.form .names .form-group{*/
+/*    width: 50%;*/
+/*}*/
+
+.form .names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-us{
+    color: #739AE3;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: #5c93f8;
+}
+
+button:hover{
+    border-radius: 10px;
+    background-color: #5c93f8;
+    color: white;
+}
+
