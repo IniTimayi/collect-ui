@@ -21,7 +21,6 @@ a{
     margin-right: 300px;
 }
 
-/* Links inside the navbar */
 .navbar a {
     float: left;
     font-size: 16px;
@@ -31,13 +30,11 @@ a{
     text-decoration: none;
 }
 
-/* The dropdown container */
 .dropdown {
     float: left;
     overflow: hidden;
 }
 
-/* Dropdown button */
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -49,7 +46,6 @@ a{
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #333;
     color: white;
